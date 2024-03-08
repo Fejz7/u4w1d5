@@ -9,9 +9,9 @@ public class Immagine extends ElementoMultimediale {
         this.luminosita = luminosita;
     }
 
-    public int getLuminosita() {
-        return luminosita;
-    }
+    //public int getLuminosita() {
+     //   return luminosita;
+    //}
 
     public void show() {
         System.out.println(titolo + " " + "*".repeat(luminosita));
